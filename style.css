@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column; /* Apilar franjas verticalmente */
+  width: 400px;           /* Cuadrado fijo */
+  height: 400px;          /* Misma altura que ancho */
+  border: 2px solid black;
+}
+
+.stripe {
+  flex: 1; /* Cada franja ocupa igual espacio */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centrar controles */
+  padding: 10px;
+  color: #000;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 0;
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bold;
+}
